@@ -5,7 +5,7 @@ $AKS="aksCluster1"
 $LOCATION="EastUS2"
 $SSHKEYFILE="akslabkey1"
 $DEPLOYBASTION="true"  # change to false if you do not want to deploy Azure Bastion
-$DEPLOYPOLICY="true"
+$DEPLOYPOLICY="false"
 
 # create ssh file if it does not already exist
 If (-Not (Test-Path -Path .\$SSHKEYFILE )) { 
